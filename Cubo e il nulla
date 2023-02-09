@@ -6,8 +6,6 @@ pygame.display.set_caption("Cubo")
 schermo = pygame.display.set_mode((800, 600))
 bianco = (255, 255, 255)
 
-#definisco i muri
-
 lista_punti = ((200, 100), (200, 400), (500, 400), (500, 100))
 pygame.draw.polygon(schermo, "yellow", lista_punti)
 # Definiamo la posizione del cubo
